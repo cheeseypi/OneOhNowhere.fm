@@ -1,0 +1,20 @@
+ul.links {
+  float: right;
+  list-style: none;
+}
+ul.links a {
+  text-decoration: none;
+  color: white;
+  /*background-color: black;*/
+  display: inline-block;
+}
+ul.links a:hover {
+  color: #cccc55;
+}
+
+@media only screen and (max-width: 850px){
+    /*Change style when <850px*/
+    ul.links{
+        display: none;
+    }
+}
